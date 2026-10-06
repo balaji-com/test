@@ -1,0 +1,336 @@
+[{
+  "_id": {
+    "$oid": "6a4734bdeb89e413a50a06d4"
+  },
+  "name": "Balaji",
+  "email": "balaji.baskar@hindujatech.com",
+  "password": "$2a$12$djoNjePEEg3JBlaHIjQJcenWSyyTEkgT1VeW7NwF74Nr52miIb3qy",
+  "role": "admin",
+  "isAdmin": true,
+  "isActive": true,
+  "color": "#c8890a",
+  "sections": [],
+  "createdAt": {
+    "$date": "2026-06-17T06:57:22.313Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-05T05:21:33.423Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-10-05T05:21:33.423Z"
+  },
+  "permissions": {
+    "my_tasks": "editor",
+    "all_works": "editor",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "editor",
+    "planner": "editor",
+    "team_overview": "viewer",
+    "monthly_reports": "viewer",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDczNGJkZWI4OWU0MTNhNTBhMDZkNCIsImlhdCI6MTc5MTE3NzY5MywiZXhwIjoxNzkzNzY5NjkzfQ.T-hI33uVWBIcaYHik2RfGJ3vB6WI4-HqGr9hMlENXXQ"
+},
+{
+  "_id": {
+    "$oid": "6a50c1fb5ddb3082e1d465be"
+  },
+  "name": "prabu",
+  "email": "prabu@hindujatech.com",
+  "password": "$2a$12$Dn2NZjuRG0Y3UJSCBryfbeSE3Z9IqK8JnU5BPb5leiFJYm3cBjlre",
+  "role": "member",
+  "isAdmin": false,
+  "isActive": true,
+  "color": "#c8890a",
+  "permissions": {
+    "my_tasks": "editor",
+    "all_works": "editor",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "admin",
+    "planner": "no_access",
+    "team_overview": "no_access",
+    "monthly_reports": "no_access",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "createdAt": {
+    "$date": "2026-07-10T09:57:15.175Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-23T05:02:48.104Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-23T05:02:48.104Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNTBjMWZiNWRkYjMwODJlMWQ0NjViZSIsImlhdCI6MTc5MDEzOTc2OCwiZXhwIjoxNzkyNzMxNzY4fQ.nJ0XU6V_K_jK0W7MQ2Mqbd50JJ9CkZWzYmXOsmUDp0c"
+},
+{
+  "_id": {
+    "$oid": "6a545e2f5ddb3082e1d4669a"
+  },
+  "name": "admin",
+  "email": "admin@hindujatech.com",
+  "password": "$2a$12$djoNjePEEg3JBlaHIjQJcenWSyyTEkgT1VeW7NwF74Nr52miIb3qy",
+  "role": "admin",
+  "isAdmin": true,
+  "isActive": true,
+  "color": "#c8890a",
+  "permissions": {
+    "my_tasks": "admin",
+    "all_works": "admin",
+    "reminders": "admin",
+    "kanban": "admin",
+    "approvals": "admin",
+    "calendar": "admin",
+    "planner": "admin",
+    "team_overview": "admin",
+    "monthly_reports": "admin",
+    "seo_checker": "admin",
+    "topic_selector": "admin",
+    "ai_configuration": "admin",
+    "customize_fields": "admin",
+    "add_members": "admin",
+    "audit_log": "admin",
+    "backup": "admin",
+    "change_password": "admin"
+  },
+  "createdAt": {
+    "$date": "2026-07-13T03:40:31.708Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-09T06:54:35.356Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-09T06:53:54.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5461725ddb3082e1d466e6"
+  },
+  "name": "diwakar",
+  "email": "diwagar@hindujatech.com",
+  "password": "$2a$12$Dn2NZjuRG0Y3UJSCBryfbeSE3Z9IqK8JnU5BPb5leiFJYm3cBjlre",
+  "role": "member",
+  "isAdmin": false,
+  "isActive": true,
+  "color": "#c8890a",
+  "permissions": {
+    "my_tasks": "admin",
+    "all_works": "editor",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "editor",
+    "planner": "no_access",
+    "team_overview": "no_access",
+    "monthly_reports": "no_access",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "createdAt": {
+    "$date": "2026-07-13T03:54:26.444Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-17T11:27:51.321Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-17T11:27:51.321Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNTQ2MTcyNWRkYjMwODJlMWQ0NjZlNiIsImlhdCI6MTc4OTY0NDQ3MSwiZXhwIjoxNzkyMjM2NDcxfQ.yvb4oYQH9MGKIJmEHmlbQVbyNuL-GYZGr7jtrx5oNQs"
+},
+{
+  "_id": {
+    "$oid": "6a54a27adc13988ba36e1f8a"
+  },
+  "name": "test",
+  "email": "test@hindujatech.com",
+  "password": "$2a$12$iHXXuvlwIw4sQhJPzV7D7e5xlbSSivyj9khCHtwJ3sDyy5huKqnY.",
+  "role": "member",
+  "isAdmin": false,
+  "isActive": false,
+  "color": "#0887b0",
+  "permissions": {
+    "my_tasks": "viewer",
+    "all_works": "viewer",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "editor",
+    "planner": "no_access",
+    "team_overview": "no_access",
+    "monthly_reports": "no_access",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "createdAt": {
+    "$date": "2026-07-13T08:31:54.429Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-17T11:39:59.711Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-17T11:25:49.997Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNTRhMjdhZGMxMzk4OGJhMzZlMWY4YSIsImlhdCI6MTc4OTY0NDM0OSwiZXhwIjoxNzkyMjM2MzQ5fQ.OmvDRMHwIkQlyV1vh9U9GZfBEgjjk4C1-a_GGy9ZHmY"
+},
+{
+  "_id": {
+    "$oid": "6aad0eb02c1e82d3b9915a69"
+  },
+  "name": "ragu",
+  "email": "ragu@gmail.com",
+  "password": "$2a$12$thjJo38FGlX8rT3XYGrXje3KwMUhYiXH8l5VQKRf7AR4jibuJlN4C",
+  "role": "member",
+  "isAdmin": false,
+  "isActive": true,
+  "color": "#c8890a",
+  "permissions": {
+    "my_tasks": "editor",
+    "all_works": "editor",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "editor",
+    "planner": "editor",
+    "team_overview": "editor",
+    "monthly_reports": "editor",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "createdAt": {
+    "$date": "2026-09-18T10:13:05.015Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-18T10:47:53.156Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-18T10:47:53.152Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYWQwZWIwMmMxZTgyZDNiOTkxNWE2OSIsImlhdCI6MTc4OTcyODQ3MywiZXhwIjoxNzkyMzIwNDczfQ.78vwsdRxv7ozqFF-MuVd86ysMZeMIlXSmR75qJtiDKI"
+},
+{
+  "_id": {
+    "$oid": "6ab35e32f73a5c57e36febbe"
+  },
+  "name": "Sriram",
+  "email": "sri@gmail.com",
+  "password": "$2a$12$ovasPsUhNvKhUdTf5iNrSOHI8FuIi9r0/SPTTzHWsbq4.dxucYUV.",
+  "role": "member",
+  "isAdmin": false,
+  "isActive": true,
+  "color": "#1a1d2e",
+  "permissions": {
+    "my_tasks": "editor",
+    "all_works": "editor",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "editor",
+    "planner": "no_access",
+    "team_overview": "no_access",
+    "monthly_reports": "no_access",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "createdAt": {
+    "$date": "2026-09-23T05:05:54.190Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-23T09:27:02.748Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-23T09:27:02.748Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjM1ZTMyZjczYTVjNTdlMzZmZWJiZSIsImlhdCI6MTc5MDE1NTYyMiwiZXhwIjoxNzkyNzQ3NjIyfQ.Z5PxuWudb5oB1a5v6iFNPTodv0fXS7-2cQRFcoP2j_g"
+},
+{
+  "_id": {
+    "$oid": "6ab39d16ee96220987f0a15f"
+  },
+  "name": "Vinth",
+  "email": "vinith@gmail.com",
+  "password": "$2a$12$lXi1Xd5stp3mmdRkdWCVjeFkvzkgqy.rWE.xfTqDImaRoPftND56m",
+  "role": "member",
+  "isAdmin": false,
+  "isActive": true,
+  "color": "#e8720c",
+  "permissions": {
+    "my_tasks": "editor",
+    "all_works": "editor",
+    "reminders": "editor",
+    "kanban": "editor",
+    "approvals": "editor",
+    "calendar": "editor",
+    "planner": "no_access",
+    "team_overview": "no_access",
+    "monthly_reports": "no_access",
+    "seo_checker": "no_access",
+    "topic_selector": "no_access",
+    "ai_configuration": "no_access",
+    "customize_fields": "no_access",
+    "add_members": "no_access",
+    "audit_log": "no_access",
+    "backup": "no_access",
+    "change_password": "editor"
+  },
+  "createdAt": {
+    "$date": "2026-09-23T09:34:14.674Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-25T03:40:54.438Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2026-09-24T04:39:12.135Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjM5ZDE2ZWU5NjIyMDk4N2YwYTE1ZiIsImlhdCI6MTc5MDMwNzY1NCwiZXhwIjoxNzkyODk5NjU0fQ.DvmJelk6ccW3EhgCtsFfj0BrzDAQRAjH2Zmcdcpq2ao"
+}]
